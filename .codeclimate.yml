@@ -14,8 +14,11 @@ engines:
       languages:
       - php
       - javascript
+  phpcodesniffer:
+    enabled: true
 ratings:
   paths:
+  - "**.php"
   - app/**
   - lib/**
   - "**.rb"
