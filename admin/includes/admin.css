@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+
+body {
+    width: 1100px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../../includes/achtergrond/top.png"), url("../../includes/achtergrond/body.png");
+    background-repeat: repeat-x, repeat;
+    margin-top: 90px;
+}
+
+#bodycontainer {
+    position: relative;
+    background-color: #E0E0E0;
+    border-top: 0px;
+    border: 1px solid #757575;
+    box-shadow: 2px 2px 3px #757575;
+}
+
+#inhoud {
+    position: relative;
+    padding: 10px;
+    box-shadow: 2px 2px 3px #757575;
+}
+
+
+/* Adminmenu: */
+#adminmenu {padding: 0; margin: 0; border: 0;}
+#adminmenu ul, #adminmenu li {list-style: none; margin: 0; padding: 0;}
+#adminmenu ul {position: relative; z-index: 597; }
+#adminmenu ul li { float: left; min-height: 1px; vertical-align: middle;}
+#adminmenu ul li.hover,
+#adminmenu ul li:hover {position: relative; z-index: 599; cursor: default;}
+#adminmenu ul ul {visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 598; width: 100%;}
+#adminmenu ul ul li {float: none;}
+#adminmenu ul ul ul {top: 0; left: auto; right: -99.5%; }
+#adminmenu ul li:hover > ul { visibility: visible;}
+#adminmenu ul ul {bottom: 0; left: 0;}
+#adminmenu ul ul {margin-top: 0; }
+#adminmenu ul ul li {font-weight: normal;}
+#adminmenu a { display: block; line-height: 1em; text-decoration: none; }
+
+#adminmenu {
+    background: #333;
+    border-bottom: 3px solid #c52125;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#adminmenu > ul { *display: block; }
+
+#adminmenu:after, #adminmenu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#adminmenu a {
+    background: #333;
+    color: #CBCBCB;
+    padding: 0 20px;
+}
+#adminmenu ul { text-transform: uppercase; }
+
+#adminmenu ul ul {
+    border-top: 3px solid #C52125;
+    text-transform: none;
+    min-width: 190px;
+}
+#adminmenu ul ul a {
+    background: #444;
+    color: #FFF;
+    border-top: 0 none;
+    line-height: 150%;
+    padding: 16px 20px;
+}
+#adminmenu ul ul ul { border-top: 0 none; }
+
+#adminmenu ul ul li { position: relative; }
+
+#adminmenu > ul > li > a { line-height: 48px;  }
+
+#adminmenu ul ul li:first-child > a { border-top: 1px solid #262626 }
+#adminmenu ul ul li:hover > a { background: #6eca5f; }
+
+#adminmenu ul ul li:last-child > a {
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 1px 0 black;
+}
+#adminmenu ul ul li:last-child:hover > a { border-radius: 0 0 0 3px; }
+
+#adminmenu ul ul li.dropdown > a:after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -8px;
+}
+
+#adminmenu ul li.active > a {
+    right: 0;
+    background: #2ea41c;
+    color: #FFF;
+}
+#adminmenu ul li:hover > a {
+    background-color: #6eca5f;
+    color: white;
+}
+
+#adminmenu ul li.uitlog > a {
+    background: #c52125;
+    color: #FFF;
+}
+#adminmenu ul li.dropdown > a:after {
+    content: '+';
+    margin-left: 5px;
+}
+#adminmenu ul li.last ul {
+    left: auto;
+    right: 0;
+}
+#adminmenu ul li.last ul ul {
+    left: auto;
+    right: 99.5%;
+}

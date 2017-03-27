@@ -1,0 +1,18 @@
+#zalen_fotos {
+    min-width: 310px;
+    border-spacing: 0;
+}
+#zalen_fotos div {
+    margin: 2px;
+}
+
+#zalen_fotos td {
+    float: right;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+}
+#zalen_fotos td img {
+    height: 150px;
+}

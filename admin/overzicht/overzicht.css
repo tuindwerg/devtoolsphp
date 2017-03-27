@@ -1,0 +1,24 @@
+#overzicht {
+    table-layout: fixed;
+    width: 50%;
+    word-wrap: break-word;
+    margin: 5px auto;
+    border-collapse: collapse;
+    border: hidden;
+}
+
+#overzicht input[type="submit"] {height: 25px;}
+
+#overzicht1 {width: 170px;}
+#overzicht2 {width: 70px;}
+
+#overzicht td,
+#overzicht th {
+    padding: 7px;
+    border: 1px solid lightgrey;
+}
+
+#overzicht th {
+    text-align: right;
+    width: 170px;
+}

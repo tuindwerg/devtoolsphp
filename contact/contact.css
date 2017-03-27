@@ -1,0 +1,50 @@
+div#contact, td#contact_map {
+    padding: 0;
+}
+#gmap_groot {
+    overflow: hidden;
+    height: 450px;
+}
+#gmap_canvas_groot {
+    height: 450px;
+}
+#gmap_canvas_groot img {
+    max-width: none !important;
+    background: none !important;
+}
+
+#contact_td {
+    width: 50%;
+}
+
+#contactformulier td {
+    padding: 0;
+}
+#contactformulier th {
+    text-align: right;
+    width: 30%;
+}
+#contactformulier_ruimte {
+    width: 3px;
+}
+
+#contactformulier input:not([type="submit"]), #contactformulier textarea {
+    width: 100%;
+}
+#contactformulier textarea {
+    max-height: 200px;
+    resize: vertical;
+}
+#contactformulier input[type="submit"] {
+    height: 30px;
+    float: right;
+}
+
+#succes {
+    text-align: center;
+    color: green;
+}
+#faal {
+    text-align: center;
+    color: red;
+}

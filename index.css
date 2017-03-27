@@ -1,0 +1,32 @@
+div#home {
+    padding: 0;
+}
+
+table#home_tabel {
+    width: 100%;
+    border-spacing: 0;
+}
+table#home_tabel td {
+    padding: 0;
+}
+
+iframe#facebook {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+td.home_afb {
+    width: 209px;
+    line-height: 0;
+}
+
+rood{
+    color:lightcoral;
+}
+
+p.wit {
+    color: white;
+    font-size: 11px;
+    padding: 0 15px;
+}

@@ -1,0 +1,106 @@
+#header {
+    margin: 10px;
+    float: left;
+}
+#header2 {
+    margin: 10px;
+    float: right;
+}
+
+#inhoud_act {
+    position: relative;
+    box-shadow: 2px 2px 3px #757575;
+}
+
+.act_bericht {
+    text-align: center;
+    min-width: 428px;
+    max-width: 456px;
+}
+.act_succes {color: #2ea41c;}
+.act_faal {color: red;}
+
+#header_tabel {
+    margin: 0 auto;
+    min-width: 400px;
+}
+#header_tabel td,
+#header_tabel th {width: 100px;}
+#header_tabel th {text-align: right;}
+#header_tabel input[type="time"],
+#header_tabel select {width: 100%;}
+
+.act_knop {text-align: center;}
+.act_knop2 {text-align: right;}
+.act_knop input {height: 25px;}
+
+button.knopje {padding: 2px 3px 0 3px;}
+button.knopje img {
+    width: 12px;
+    height: 12px;
+}
+
+#gesloten_checkbox {text-align: center;}
+
+/* Agenda { */
+#agenda {
+    border-top: 1px solid black;
+    table-layout: fixed;
+    word-break: break-word;
+}
+.agenda_dag table {
+    table-layout: fixed;
+    word-break: break-word;
+}
+.agenda_dag td {
+    font-size: 13px;
+    padding: 7px 7%;
+    width: 50px;
+}
+th.activiteit {
+    font-size: 14px;
+    text-align: left;
+    padding: 7px 3px 7px 0;
+}
+th.gesloten {
+    font-size: 14px;
+    padding: 7px 3px;
+    width: 100%;
+}
+
+#agenda, .agenda_dag table {width: 100%;}
+.agenda_col {width: 14.286%;}
+.agenda_dag_col1 {width: 35%;}
+.agenda_dag_col2 {width: 65%;}
+
+#agenda > tbody > tr > td {
+    vertical-align: top;
+    padding: 0;
+}
+
+#agenda,
+.agenda_dag table,
+#agenda > tbody > tr > th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#agenda > tbody > tr > td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#agenda > tbody > tr > th {border-bottom-color: grey;}
+.agenda_dag table {border: hidden;}
+#agenda {
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+}
+.agenda_dag > td td,
+.agenda_dag > td th {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.sluiting {
+    border-top: 1px solid lightgrey;
+}
+/* } */

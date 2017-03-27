@@ -1,0 +1,94 @@
+.width20 {width: 20%;}
+.width40 {width: 40%;}
+.width100 {width: 100%;}
+
+/* Header begin */
+label {white-space: nowrap;}
+
+#header {overflow: auto;}
+
+#header1 {
+    float: left;
+    width: 642px;
+    margin-right: 10px;
+}
+#header2 {
+    float: right;
+    width: 416px;
+    margin-left: 10px;
+}
+
+#header2 th {
+    text-align: right;
+    min-width: 110px;
+}
+
+textarea#toelichting_lang {
+    resize: vertical;
+    max-height: 180px;
+}
+
+#bericht_faal {
+    display: table;
+    margin: 0 auto;
+    color: red;
+}
+#bericht_succes {
+    display: table;
+    margin: 0 auto;
+    color: #2ea41c;
+}
+
+td#knoppen {text-align: center;}
+td#knoppen input {height: 25px;}
+/* Header eind */
+
+/* Overzicht begin */
+#overzicht {
+    padding-top: 10px;
+    border-top: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+#overzicht > table > tbody > tr > th {border-bottom: 1px solid grey;}
+#overzicht > table > tbody > tr > td {
+    vertical-align: top;
+    padding: 5px;
+}
+#overzicht > table > tbody > tr > td:first-of-type {border-right: 1px solid grey;}
+
+#overzicht_evenementen {width: 60%;}
+#overzicht_gesloten {width: 40%;}
+
+#overzicht > table table th {text-align: left;}
+
+#overzicht > table,
+#overzicht1,
+#overzicht2 {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#overzicht1 th, #overzicht1 td,
+#overzicht2 th, #overzicht2 td {
+    padding: 4px;
+    word-break: break-word;
+    border-bottom: 1px solid lightgrey;
+}
+#overzicht1 tr:last-of-type th, #overzicht1 tr:last-of-type td,
+#overzicht2 tr:last-of-type th, #overzicht2 tr:last-of-type td {border-bottom: hidden;}
+
+col.overzicht_1 {width: 190px;}
+col.overzicht_2 {width: 110px;}
+col.overzicht_3 {width: 60px;}
+
+button.knopje {padding: 2px 3px 0 3px;}
+button.knopje img {
+    width: 12px;
+    height: 12px;
+}
+
+#wordt_bewerkt {background-color: #6eca5f;}
+#wordt_verwijderd {background-color: lightcoral;}
+/* Overzicht eind */

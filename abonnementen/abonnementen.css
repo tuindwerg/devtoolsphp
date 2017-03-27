@@ -1,0 +1,39 @@
+table#abonnementen > tbody > tr > td {width: 50%;}
+
+#inschrijfformulier th {text-align: right;}
+#inschrijfformulier input, #inschrijfformulier select {
+    width: 100%;
+    padding: 3px;
+}
+
+table#abo_tabel1, table#abo_tabel1 th, table#abo_tabel1 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px 2%;
+}
+table#abo_tabel2 ul {margin: 0;}
+
+p#abo_voorwaarden {
+    font-size: 14px;
+    margin: 0;
+}
+ul#abo_voorwaarden_ul {
+    font-size: 14px;
+    margin: 0;
+}
+.verberg {display: none;}
+
+.intakeformulier th {
+    text-align: left;
+    width: 80%;
+    padding-left: 40px;
+    word-wrap: break-word;
+}
+.links {
+    padding-left: 80px;
+}
+#centerafb{
+
+       display: block;
+    margin-left: auto;
+    margin-right: auto }

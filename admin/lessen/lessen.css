@@ -1,0 +1,8 @@
+td#verwijderknop input {
+    color: red;
+    font-weight: bold;
+}
+textArea{
+    resize: vertical;
+    max-height: 300px;
+}

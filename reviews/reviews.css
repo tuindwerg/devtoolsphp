@@ -1,0 +1,161 @@
+.divVisible {
+    display: block;
+}
+
+.divHidden {
+    display: none;
+}
+
+.review {
+    text-align: center;
+    position: absolute;
+    left: 750px; 
+    top: 0;
+    background: rgba(68, 68, 68, .8);
+    box-shadow: 2px 2px 3px #757575;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-bottom: 3px;
+    width: 300px;
+}
+
+.review label {
+    color: white;
+    font-size: 13px;
+    padding: 10px;   
+}
+
+.review h6 {
+    padding: 0 15px;
+}
+
+.review h5 {
+    color: lightcoral;
+    padding: 0;
+}
+
+.review2 {
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.review2:hover {
+    color: #959595;
+}
+
+button {
+    background-color: #262626;
+    color: white;
+    border-radius: 3px;
+    border-color: #000;
+    border-top: 2px;
+    border-left: 1px;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+form .sterren {
+    background: url("afb/sterren.png") repeat-x 0 0;
+    width: 150px;
+    margin: 0 auto;
+}
+
+form .sterren input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+form .sterren input[type="radio"].ster-5:checked ~ span {
+    width: 100%;
+}
+
+form .sterren input[type="radio"].ster-4:checked ~ span {
+    width: 80%;
+}
+
+form .sterren input[type="radio"].ster-3:checked ~ span {
+    width: 60%;
+}
+
+form .sterren input[type="radio"].ster-2:checked ~ span {
+    width: 40%;
+}
+
+form .sterren input[type="radio"].ster-1:checked ~ span {
+    width: 20%;
+}
+
+form .sterren label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0!important;
+    padding: 0!important;
+    text-indent: -999em;
+    float: left;
+    position: relative;
+    z-index: 10;
+    background: transparent!important;
+    cursor: pointer;
+}
+
+form .sterren label:hover ~ span {
+    background-position: 0 -30px;
+}
+
+form .sterren label.ster-5:hover ~ span {
+    width: 100% !important;
+}
+
+form .sterren label.ster-4:hover ~ span {
+    width: 80% !important;
+}
+
+form .sterren label.ster-3:hover ~ span {
+    width: 60% !important;
+}
+
+form .sterren label.ster-2:hover ~ span {
+    width: 40% !important;
+}
+
+form .sterren label.ster-1:hover ~ span {
+    width: 20% !important;
+}
+
+form .sterren span {
+    display: block;
+    width: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background: url("afb/sterren.png") repeat-x 0 -60px;
+    -webkit-transition: -webkit-width 0.5s;
+    -moz-transition: -moz-width 0.5s;
+    -ms-transition: -ms-width 0.5s;
+    -o-transition: -o-width 0.5s;
+    transition: width 0.5s;
+}
+
+textarea.form {
+    width: 185px;
+    height: 102px;
+    max-height: 220px;
+    resize: vertical;
+}
+
+input.form {
+    width: 185px;
+}
+
+a.form {
+    color: lightcoral;
+    font-size: 12px;
+}

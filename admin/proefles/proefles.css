@@ -1,0 +1,65 @@
+table#proefles_header {
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+table#proefles_header > tbody > tr > td {vertical-align: top;}
+table.proefles_form {margin-left: auto;}
+
+table#proefles_zoeken input {height: 25px;}
+table#proefles_zoeken input[type="text"] {width: 125px;}
+
+table#proefles_weergeven {padding-right: 10%;}
+
+table.proefles_tabel td,
+table.proefles_tabel th {padding: 3px;}
+table.proefles_tabel th {text-align: left;}
+
+/* Proefles_tabel borders { */
+table.proefles_tabel,
+table.proefles_tabel td,
+table.proefles_tabel th {
+    border: 1px solid grey;
+    border-left: hidden;
+    border-right: hidden;
+    border-collapse: collapse;
+}
+table.proefles_tabel {border: hidden;}
+table.proefles_tabel td {border-bottom-color: lightgrey;}
+/* } */
+
+/* Proefles_tabel afmetingen { */
+table.proefles_tabel {width: 100%;}
+table.proefles_tabel td {word-break: break-word;}
+.proefles_width1 {width: 15%;}
+.proefles_width2 {width: 27%;}
+.proefles_width3 {width: 11%;}
+.proefles_width3 input {width: 140px;}
+#herplannen_datum {width: 112px;}
+
+.proefles_knop input,
+.proefles_knop button {height: 25px;}
+
+td#herplannenknop {width: 8%;}
+td#verwijderknop {width: 2%;}
+td#verwijderknop button {
+    color: red;
+    font-weight: bold;
+}
+/* } */
+table#resultaten_kop {width: 100%;}
+td#resultaten_kop_knop {text-align: right;}
+table#resultaten_kop h3 {
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+table.links td,
+table.links th {
+    text-align: left;
+    padding: 1px 5px;
+    width: 14%;
+    max-width: 140px;
+    overflow: hidden;
+}
