@@ -1,9 +1,4 @@
 engines:
-  rubocop:
-    enabled: true
-    #checks:
-    #	Rubocop/Metrics/ClassLength:
-    #  	enabled: false
   eslint:
     enabled: true
   csslint:
@@ -16,6 +11,8 @@ engines:
       - javascript
   phpcodesniffer:
     enabled: true
+     config:
+    	standard: "PSR1,PSR2"
 ratings:
   paths:
   - "**.php"
