@@ -6,9 +6,9 @@ index e69de29..8772857 100644
 +---
 +engines:
 +  csslint:
-+    enabled: true
++    enabled: false
 +  duplication:
-+    enabled: true
++    enabled: false
 +    config:
 +      languages:
 +      - ruby
