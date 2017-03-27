@@ -7,9 +7,9 @@ engines:
   eslint:
     enabled: true
   csslint:
-    enabled: true
+    enabled: false
   duplication:
-    enabled: true
+    enabled: false
     config:
       languages:
       - php
